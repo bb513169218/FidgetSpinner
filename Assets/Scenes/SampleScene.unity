@@ -542,11 +542,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa03ad72c9a21b54092e80969cb1afb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isColckwise: 0
+  isDraging: 0
+  isFirstControl: 0
   speedCurrent: 0
   speedIncrease: 360
   speedDecrease: 6
-  speedOutContrl: 90
-  distanceLimit: 30
+  speedProtection: 60
+  distanceLimit: 200
   strengthScale: 0.025
 --- !u!1 &1409624704
 GameObject:
